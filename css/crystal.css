@@ -59,8 +59,9 @@ a, .carousel-control {
   line-height: 33px;
 }
 
-.quote > .quote1 {
+.quote {
   font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
+  color: #666;
   margin: 50px 73px 0 73px;
   font-size: 1.3em;
   font-style: italic;
@@ -85,4 +86,9 @@ a, .carousel-control {
 
 .navbar-default {
   border: none;
+}
+
+.name {
+  color: #333;
+  float: right;
 }
