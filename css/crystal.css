@@ -1,0 +1,88 @@
+.logo {
+  position: relative;
+  bottom: 10px;
+}
+
+.navbar {
+  background: #b00000;
+}
+
+.dropdown {
+  float: right;
+  margin: 0 10px 0 10px;
+  list-style-type: none;
+}
+
+#topnav {
+  float: right;
+  bottom: 50px;
+  position: relative;
+}
+
+.navbar-default .navbar-nav>li>a {
+  background: #b00000;
+  border: none;
+  color: white;
+  font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
+  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+.navbar-nav {
+  float: right !important;
+}
+
+.navbar-right {
+  margin-top: 15px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a, .carousel-control {
+  background-color: none;
+}
+
+#text-container {
+  border: 1px solid #ddd;
+  width: 70%;
+  height: 252px;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 33px;
+}
+
+.quote > .quote1 {
+  font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
+  margin: 50px 73px 0 73px;
+  font-size: 1.3em;
+  font-style: italic;
+  text-align: justify;
+  padding-top: 3px;
+}
+
+.item > img {
+  width: 100%;
+}
+
+.carousel-control {
+  box-shadow: none !important;
+}
+
+.carousel-caption {
+  padding-bottom: 80px;
+}
+.container {
+  height: 72px;
+}
+
+.navbar-default {
+  border: none;
+}
