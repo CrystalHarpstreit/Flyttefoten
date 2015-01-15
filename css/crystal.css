@@ -19,7 +19,8 @@ html, body {
   font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
   letter-spacing: 2px;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -86,10 +87,30 @@ a, .carousel-control {
   float: right;
 }
 
-.footer {
-  background-color: #ddd;
-  height: 100%;
+footer {
+  background-color: #43403f;
+  height: 200px;
   width: 100%;
   position: absolute;
-  bottom: 0;
+  margin: 100px 0 0 0;
+  color: white;
+  float: right;
+}
+
+div.category {
+  width: 20%;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+div.heading {
+  font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
+  font-size: 1.5em;
+}
+
+.footer-container {
+  margin-top: 50px;
+  margin-right: 350px;
 }
