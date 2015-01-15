@@ -1,6 +1,5 @@
-.logo {
-  position: relative;
-  bottom: 10px;
+html, body {
+  height: 100%;
 }
 
 .navbar {
@@ -11,12 +10,6 @@
   float: right;
   margin: 0 10px 0 10px;
   list-style-type: none;
-}
-
-#topnav {
-  float: right;
-  bottom: 50px;
-  position: relative;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -31,6 +24,7 @@
 
 .navbar-default .navbar-nav>li>a:hover {
   color: white;
+  border-bottom: white 7px solid
 }
 
 .navbar-nav {
@@ -39,11 +33,6 @@
 
 .navbar-right {
   margin-top: 15px;
-}
-
-a:hover {
-  text-decoration: none;
-  color: white;
 }
 
 a, .carousel-control {
@@ -73,8 +62,12 @@ a, .carousel-control {
   width: 100%;
 }
 
-a, .left .carousel-control {
-  text-shadow: none !important;
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
 }
 
 .carousel-caption {
@@ -91,4 +84,12 @@ a, .left .carousel-control {
 .name {
   color: #333;
   float: right;
+}
+
+.footer {
+  background-color: #ddd;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
