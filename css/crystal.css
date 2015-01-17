@@ -28,6 +28,10 @@ html, body {
   border-bottom: white 7px solid
 }
 
+.navbar-default .navbar-nav>li>a:visited {
+  color: white;
+}
+
 .navbar-nav {
   float: right !important;
 }
@@ -83,13 +87,14 @@ a, .carousel-control {
 }
 
 .name {
-  color: #333;
+  color: #222;
   float: right;
+  margin-top: 35px;
 }
 
 footer {
   background-color: #43403f;
-  height: 200px;
+  height: 100%;
   width: 100%;
   position: absolute;
   margin: 100px 0 0 0;
@@ -103,14 +108,52 @@ div.category {
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: 2px;
+  margin: 10px 10px 10px 10px;
 }
 
 div.heading {
   font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
   font-size: 1.5em;
+  font-weight: 300;
 }
 
 .footer-container {
   margin-top: 50px;
   margin-right: 350px;
+}
+
+.navbar-default .navbar-nav>.open>a{
+  background-color: #b00000;
+}
+
+.navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-color: #b00000;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu>li>a:hover {
+  color: #b00000;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: white;
+}
+
+@media (max-width: 930px) {
+  p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 830px) {
+  text-container {
+    height: 170px;
 }
