@@ -113,6 +113,8 @@ div.category {
   letter-spacing: 2px;
   margin: 10px 10px 10px 10px;
   display: inline-block;
+  text-align: justify;
+
 }
 
 div.heading {
@@ -140,12 +142,28 @@ div.heading {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
+.dropdown-menu>li>a {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
 .dropdown-menu>li>a:hover {
   color: #b00000;
 }
 
 .dropdown-menu>li>a:hover {
   background-color: white;
+}
+
+.decoration {
+  border-bottom: solid 1px #999;
+  width: 65%;
+  margin: 100px 250px 50px 250px;
+  text-align: center;
+}
+
+.logo-bottom {
+  margin: 10px 10px 15px 10px;
 }
 
 @media (max-width: 930px) {
