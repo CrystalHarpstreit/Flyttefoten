@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  background-color: whitesmoke;
 }
 
 .navbar {
@@ -49,8 +50,9 @@ a, .carousel-control {
   width: 70%;
   height: 252px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 70px;
   line-height: 30px;
+  background-color: white;
 }
 
 .quote {
