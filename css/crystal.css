@@ -182,7 +182,11 @@ div.heading {
 }
 
 h2 {
-  margin: 20px 0 80px 0;
+  font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
+  font-size: 2.6em;
+  font-weight: 700;
+  letter-spacing:2px;
+  margin: 30px 0 80px 0;
   text-align: center;
   text-transform: uppercase;
 }
