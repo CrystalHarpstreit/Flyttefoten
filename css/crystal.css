@@ -56,7 +56,7 @@ a, .carousel-control {
 #text-container {
   border: 1px solid #ddd;
   width: 70%;
-  height: 252px;
+  padding: 50px 30px 50px 30px;
   margin: 0 auto;
   margin-top: 70px;
   line-height: 30px;
@@ -66,11 +66,9 @@ a, .carousel-control {
 .quote {
   font-family: "Proxima Nova", "Helvetica Neue", "Helvetica";
   color: #666;
-  margin: 50px 73px 0 73px;
   font-size: 1.3em;
   font-style: italic;
   text-align: justify;
-  padding-top: 3px;
 }
 
 .item > img {
@@ -99,7 +97,7 @@ a, .carousel-control {
 .name {
   color: #222;
   float: right;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 footer {
@@ -119,7 +117,7 @@ div.category {
   text-transform: uppercase;
   font-weight: 100;
   letter-spacing: 2px;
-  margin-right: 10px;
+  margin: 0 10px 20px 0;
   display: inline-block;
   text-align: justify;
 
@@ -133,7 +131,7 @@ div.heading {
 
 .footer-container {
   margin-top: 50px;
-  margin-right: 350px;
+  margin-right: 23%;
 }
 
 .navbar-default .navbar-nav>.open>a{
@@ -179,6 +177,7 @@ div.heading {
   color: #444;
   line-height: 1.7;
   letter-spacing:0.03rem;
+  margin: 25px 0 25px 0;
 }
 
 h2 {
@@ -190,12 +189,12 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   border-bottom: 1px #ccc solid;
-  width: 400px;
+  width: 60%;
   margin: 0 auto;
 }
 
-p {
-  margin: 50px 0 50px 0;
+.info {
+  width: 131px;
 }
 
 @media (max-width: 930px) {
@@ -205,9 +204,17 @@ p {
     width: 100%;
     overflow: hidden;
   }
+
+  .name {
+    display: none;
+  }
+
+  .footer-container {
+    width: 94%;
+  }
 }
 
-@media (max-width: 830px) {
-  text-container {
+/*@media (max-width: 830px) {
+  #text-container {
     height: 170px;
-}
+}*/
