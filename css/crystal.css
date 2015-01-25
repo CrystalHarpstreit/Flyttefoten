@@ -199,6 +199,10 @@ h2 {
   width: 131px;
 }
 
+p.article-body {
+  white-space: normal;
+}
+
 @media (max-width: 930px) {
   p {
     text-overflow: ellipsis;
@@ -212,5 +216,11 @@ h2 {
 
   .footer-container {
     width: 94%;
+  }
+}
+
+@media (max-width: 830px) {
+  .article-body{
+    font-size: 1.2em
   }
 }
