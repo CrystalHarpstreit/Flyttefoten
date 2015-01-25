@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   background-color: whitesmoke;
+  margin: 0 0 0 0;
 }
 
 .navbar {
@@ -27,7 +28,7 @@ html, body {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-  color: white;
+  color: white;;'o09i'
   background-color: #b00000;
   border-bottom: none;
 }
@@ -167,7 +168,7 @@ div.heading {
 }
 
 .article-container {
-  max-width: 55%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -178,6 +179,7 @@ div.heading {
   line-height: 1.7;
   letter-spacing:0.03rem;
   margin: 25px 0 25px 0;
+  overflow: visible !important;
 }
 
 h2 {
@@ -201,7 +203,6 @@ h2 {
   p {
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 100%;
     overflow: hidden;
   }
 
@@ -213,8 +214,3 @@ h2 {
     width: 94%;
   }
 }
-
-/*@media (max-width: 830px) {
-  #text-container {
-    height: 170px;
-}*/
