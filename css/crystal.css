@@ -4,7 +4,7 @@ html, body {
   margin: 0 0 0 0;
 }
 
-.navbar {
+/*.navbar {
   background: #b00000;
 }
 
@@ -28,14 +28,9 @@ html, body {
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus {
-  color: white;;'o09i'
+  color: white;
   background-color: #b00000;
   border-bottom: none;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: white;
-  border-bottom: white 7px solid
 }
 
 .navbar-default .navbar-nav>li>a:visited {
@@ -52,7 +47,7 @@ html, body {
 
 a, .carousel-control {
   background-color: none;
-}
+}*/
 
 #text-container {
   border: 1px solid #ddd;
@@ -72,7 +67,7 @@ a, .carousel-control {
   text-align: justify;
 }
 
-.item > img {
+/*.item > img {
   width: 100%;
 }
 
@@ -93,7 +88,7 @@ a, .carousel-control {
 
 .navbar-default {
   border: none;
-}
+}*/
 
 .name {
   color: #222;

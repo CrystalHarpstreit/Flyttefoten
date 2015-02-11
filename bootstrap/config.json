@@ -377,12 +377,8 @@
   },
   "css": [
     "forms.less",
-    "buttons.less",
-    "responsive-utilities.less",
-    "button-groups.less",
     "navs.less",
     "navbar.less",
-    "jumbotron.less",
     "component-animations.less",
     "dropdowns.less",
     "tooltip.less",
@@ -404,5 +400,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=63b850d8fa0f4a49b356"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=c74671b6174bf158f09a"
 }
