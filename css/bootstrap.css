@@ -3161,6 +3161,11 @@ tr.collapse.in {
 tbody.collapse.in {
   display: table-row-group;
 }
+/*@media (max-width: 530px) {
+  .collapse.in {
+    float: left;
+  }
+}*/
 .collapsing {
   position: relative;
   height: 0;
@@ -3187,8 +3192,6 @@ tbody.collapse.in {
 }
 .dropdown {
   position: relative;
-  float: right;
-  margin: 0 10px 0 10px;
   list-style-type: none;
 }
 .dropdown-toggle:focus {
@@ -3892,7 +3895,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
+  max-height: none;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
@@ -3996,10 +3999,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
-.navbar-nav {
-  float: right !important;
-  /*margin: 7.5px -15px;*/
+@media (max-width: 450px) {
+  .nav > li {
+    text-align: center;
+  }
 }
+
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -4030,7 +4035,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    /*float: left;*/
     margin: 0;
   }
   .navbar-nav > li {
@@ -4190,8 +4195,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size: 1em;
   font-weight: 100;
   text-transform: uppercase;
-  /*font-size: 3em;
-  margin: 15px 0 15px 0;*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -4210,6 +4213,16 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .disabled > a:focus {
   color: #ccc;
   background-color: transparent;
+}
+@media (max-width: 450px) {
+  .navbar-default .navbar-nav > li > a {
+    padding: 20px;
+    font-size: 1.5em;
+    border-bottom: 1px solid white;
+  }
+  .navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 1px solid white;
+  }
 }
 .navbar-default .navbar-toggle {
   border-color: #ddd;
